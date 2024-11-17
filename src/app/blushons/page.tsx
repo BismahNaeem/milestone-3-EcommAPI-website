@@ -1,14 +1,14 @@
-import HeroSection from "./components/herosection"
+import Blushon from "../components/blushon"
 
 
 export default function Home(){
   return(
     <>
-    
    
    
    
-    <HeroSection />
+   
+    <Blushon />
     
     </>
   )

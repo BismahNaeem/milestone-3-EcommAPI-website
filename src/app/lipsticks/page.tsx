@@ -1,14 +1,16 @@
-import HeroSection from "./components/herosection"
+
+
+import Lipstick from "../components/lipstick"
 
 
 export default function Home(){
   return(
     <>
-    
    
    
    
-    <HeroSection />
+   
+    <Lipstick />
     
     </>
   )

@@ -1,14 +1,14 @@
-import HeroSection from "./components/herosection"
+import Eyeshadow from "../components/eyeshadow"
 
 
 export default function Home(){
   return(
     <>
-    
    
    
    
-    <HeroSection />
+   
+    <Eyeshadow />
     
     </>
   )
