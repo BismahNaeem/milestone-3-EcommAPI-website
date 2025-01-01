@@ -1,15 +1,14 @@
-import HeroSection from "./components/herosection"
+import React from 'react'
+import Homepage from './components/homepage'
+import Hero from './components/herosection'
 
-
-export default function Home(){
-  return(
-    <>
-    
-   
-   
-   
-    <HeroSection />
-    
-    </>
+const page = () => {
+  return (
+    <div>
+      <Hero />
+      <Homepage />
+    </div>
   )
 }
+
+export default page

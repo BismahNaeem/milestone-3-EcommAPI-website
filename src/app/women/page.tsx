@@ -1,4 +1,4 @@
-import Blushon from "../components/blushon"
+import Women from "../components/womencollection"
 
 
 export default function Home(){
@@ -8,7 +8,7 @@ export default function Home(){
    
    
    
-    <Blushon />
+    <Women />
     
     </>
   )

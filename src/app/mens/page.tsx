@@ -1,6 +1,6 @@
 
 
-import Lipstick from "../components/lipstick"
+import Mens from "../components/mencollection"
 
 
 export default function Home(){
@@ -10,7 +10,7 @@ export default function Home(){
    
    
    
-    <Lipstick />
+    <Mens />
     
     </>
   )

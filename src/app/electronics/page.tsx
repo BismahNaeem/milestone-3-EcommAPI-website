@@ -1,4 +1,4 @@
-import Eyeshadow from "../components/eyeshadow"
+import Electronic from "../components/electronics"
 
 
 export default function Home(){
@@ -8,7 +8,7 @@ export default function Home(){
    
    
    
-    <Eyeshadow />
+    <Electronic />
     
     </>
   )
