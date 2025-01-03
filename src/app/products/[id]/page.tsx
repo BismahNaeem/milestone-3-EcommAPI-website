@@ -1,24 +1,11 @@
-
+import Image from "next/image";
 
 import { FaStar } from "react-icons/fa";
 export default async function ProductPage({ params }: { params: { id: string } }) {
   // Fetch product details based on the dynamic ID
   const response = await fetch(`https://fakestoreapi.com/products/${params.id}`);
   const product = await response.json(); // Parse the JSON data
- 
-   
-  
-  
-   
-    
-   
-      
-     
-      
-       
-          
-        
-  
+
 
 
   return (
@@ -28,9 +15,10 @@ export default async function ProductPage({ params }: { params: { id: string } }
       <div className="flex gap-8">
         {/* Left: Product Image */}
         <div className="w-1/2">
-          <img
+          <Image
             src={product.image}
             alt={product.title}
+            height={500} width={500}
             className="w-full h-auto object-contain rounded-md "
           />
         </div>

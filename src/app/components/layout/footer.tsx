@@ -11,8 +11,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="/" className="hover:text-gray-400">Home</a></li>
               <li><a href="/electronics" className="hover:text-gray-400">Electronics</a></li>
-              <li><a href="/womens" className="hover:text-gray-400">Women's Collection</a></li>
-              <li><a href="/mens" className="hover:text-gray-400">Men's Collection</a></li>
+              <li><a href="/womens" className="hover:text-gray-400">Womens Collection</a></li>
+              <li><a href="/mens" className="hover:text-gray-400">Mens Collection</a></li>
               <li><a href="/contact" className="hover:text-gray-400">Contact Us</a></li>
             </ul>
           </div>
@@ -20,7 +20,7 @@ const Footer = () => {
           {/* About Us Section */}
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
-            <p className="text-gray-400">We provide a wide variety of products to meet your shopping needs. Explore, discover, and shop with us!</p>
+            <p className="text-gray-400">We provide a wide variety of products to meet your shopping needs. Explore discover and shop with us</p>
           </div>
 
           {/* Newsletter Subscription */}

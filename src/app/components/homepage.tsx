@@ -1,6 +1,7 @@
 // app/page.tsx
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 interface Product {
@@ -37,6 +38,7 @@ export default async function Home() {
                   src={product.image}
                   alt={product.title}
                   className="w-full h-60 object-contain rounded-t-lg"
+                  //height={500} width={500}
                 />
               </Link>
             ) : (
