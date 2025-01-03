@@ -34,11 +34,11 @@ export default async function Home() {
           <div key={product.id} className="border rounded-lg shadow-lg hover:shadow-2xl transition-all">
             {product.image ? (
               <Link href={`/products/${product.id}`}>
-                <img
+                <Image
                   src={product.image}
                   alt={product.title}
                   className="w-full h-60 object-contain rounded-t-lg"
-                  //height={500} width={500}
+                  height={500} width={500}
                 />
               </Link>
             ) : (
