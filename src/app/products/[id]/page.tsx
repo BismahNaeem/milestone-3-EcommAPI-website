@@ -1,6 +1,6 @@
 'use client';  // Make sure this is at the top to enable client-side hooks
 
-import { useRouter } from 'next/navigation';  // Correct import for app directory
+//import { useRouter } from 'next/navigation';  // Correct import for app directory
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FaStar } from 'react-icons/fa';
@@ -17,7 +17,7 @@ interface Product {
 
 export default function ProductPage({ params }: { params: { id: string } }) {
   const [product, setProduct] = useState<Product | null>(null);  // State to store product details
-  const router = useRouter();  // Correct way to use router in the app directory
+ // const router = useRouter();  // Correct way to use router in the app directory
   const { addToCart } = useCart();  // Access the addToCart function from context
 
   // Fetch product details after the page mounts (client-side)
@@ -51,6 +51,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
             alt={product.title}
             height={500}
             width={500}
+            
             className="w-full h-auto object-contain rounded-md"
           />
         </div>

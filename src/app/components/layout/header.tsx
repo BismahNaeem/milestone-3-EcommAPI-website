@@ -17,8 +17,8 @@ export default function Header() {
       <nav className="md:flex space-x-6 mt-2 ml-10 lg:ml-0 lg:mt-4">
         <Link href="/" className="text-white hover:text-blue-600 font-medium">Home</Link>
         <Link href="/electronics" className="text-white hover:text-blue-600 font-medium">Electronics</Link>
-        <Link href="/women" className="text-white hover:text-blue-600 font-medium">Women's Collection</Link>
-        <Link href="/mens" className="text-white hover:text-blue-600 font-medium">Men's Collection</Link>
+        <Link href="/women" className="text-white hover:text-blue-600 font-medium">Womens Collection</Link>
+        <Link href="/mens" className="text-white hover:text-blue-600 font-medium">Mens Collection</Link>
       </nav>
 
       {/* Icons */}

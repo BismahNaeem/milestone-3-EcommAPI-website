@@ -19,6 +19,8 @@ export default function CartPage() {
               <Image
                 src={item.image}
                 alt={item.title}
+                height={500}
+                width={500}
                 className="w-24 h-24 object-contain rounded-md"
               />
               {/* Product Details */}
